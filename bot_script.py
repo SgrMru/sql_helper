@@ -45,7 +45,7 @@ output_buffer.close()
 #print(output_string)
 
 
-openai.api_key = "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"
+openai.api_key = "openAI_API_Key"
 
 messages = [{"role": "system", "content": "where the database structure is " + output_string}]
 
